@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/wine"
+        android:src="@drawable/wine"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="nama : Wine Widiawaty
+                        nim : 1167050164
+                        nomer  : 087823654799
+                        alamat  : Cimahi
+                        Social Media  : @winewidiawaty10" />
+
+    <Button
+        android:id="@+id/btnpgl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="581dp"
+        android:onClick="panggil"
+        android:text="TELEPON" />
+
+    <Button
+        android:text="BUKA BROWSER "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnpgl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/btnbuka"
+        android:onClick="buka"/>
+
+
+</RelativeLayout>
